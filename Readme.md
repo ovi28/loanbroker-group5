@@ -9,5 +9,7 @@ Besides the RabbitMQ messaging part of the system, it is relying on a couple of 
 
 ## Quick description
 The "Soap servers" files should be hosted on a server that supports php.
+
 The server Java application is responsible for one of the banks and it is recommended to run it from inside intelliJ.
+
 The client Java application is the main part of the program and it is recommended to run it from inside intelliJ.
