@@ -37,6 +37,6 @@ public interface CreditScoreService {
     @Action(input = "http://service.web.credit.bank.org/CreditScoreService/creditScoreRequest", output = "http://service.web.credit.bank.org/CreditScoreService/creditScoreResponse")
     public int creditScore(
         @WebParam(name = "ssn", targetNamespace = "")
-        String ssn);
+                String ssn);
 
 }

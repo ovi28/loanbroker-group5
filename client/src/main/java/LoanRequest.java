@@ -1,23 +1,23 @@
 
 public class LoanRequest {
 
-    private int ssn;
+    private long ssn;
     private int creditScore;
     private float loanAmount;
     private float loanDuration;
 
-    public LoanRequest(int ssn, int creditScore, float loan, float duration) {
+    public LoanRequest(long ssn, int creditScore, float loan, float duration) {
         this.ssn = ssn;
         this.creditScore = creditScore;
         this.loanAmount = loan;
         this.loanDuration = duration;
     }
 
-    public int getSsn() {
+    public long getSsn() {
         return ssn;
     }
 
-    public void setSsn(int ssn) {
+    public void setSsn(long ssn) {
         this.ssn = ssn;
     }
 
